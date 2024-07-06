@@ -1,0 +1,33 @@
+/* Точка перегиба на 600 пикселей */
+@media screen and (max-width: 414px) {
+  header.promo {
+    width: 100%;
+    background-size: 100%;
+    height: 239px;
+  }
+  .container {
+    width: 80%;
+    padding: 0 5px;
+  }
+
+  .nav img {
+    padding: 9px 1px;
+    width: 100px;
+  }
+  .nav ul {
+    display: none;
+  }
+
+  .promo-content {
+    padding-top: 0px;
+  }
+
+  .promo-content h2 {
+    font-size: 18px;
+  }
+
+  .promo-content h1 {
+    font-size: 17px;
+    line-height: 21.47px;
+  }
+}

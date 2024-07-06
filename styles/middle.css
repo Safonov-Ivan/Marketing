@@ -1,0 +1,49 @@
+@media screen and (max-width: 900px) and (width: 100%) {
+  nav ul {
+    align-items: center;
+    white-space: nowrap;
+  }
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .promo {
+    width: 100%;
+    background-size: contain;
+    height: 535px;
+  }
+
+  .footer-col {
+    padding: 20px 20px;
+  }
+  .promo-content {
+    padding-top: 80px;
+  }
+  .promo-content h1 {
+    font-size: 3em;
+    line-height: normal;
+  }
+  .item {
+    padding-left: 20px;
+  }
+  .footer-row {
+    padding-left: 20px;
+  }
+  .footer-column:last-child {
+    padding-right: 0px;
+  }
+  .promo-content a {
+    width: 190px;
+    height: 57px;
+  }
+  .block-item-iner {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .footer-column p {
+    padding-right: 5px;
+  }
+  .footer-column:last-child {
+    padding-right: 57px;
+  }
+}

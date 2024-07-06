@@ -1,0 +1,111 @@
+/* Точка перегиба на 600 пикселей */
+@media screen and (max-width: 600px) {
+  header.promo {
+    width: 100%;
+    background-size: 100%;
+    height: 355px;
+  }
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .nav {
+    width: 40%;
+    padding: 10px 25px;
+  }
+
+  .promo-content {
+    padding-top: 28px;
+  }
+
+  .list a {
+    padding-right: 10px;
+  }
+
+  .links:last-child {
+    width: 96px;
+    padding: 18px 12px;
+  }
+
+  .promo-content h2 {
+    font-size: 30px;
+  }
+
+  .promo-content h1 {
+    font-size: 3em;
+    line-height: 50.47px;
+  }
+
+  .promo-content p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .promo-content a {
+    margin-top: 10px;
+    width: 121px;
+    height: 32px;
+    white-space: nowrap;
+  }
+
+  .block-item h2 {
+    font-size: 20px;
+  }
+
+  .block-item-iner {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .item {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  .social-wrapper {
+    height: fit-content;
+  }
+  .iner-iner-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .iner-iner-flex > a {
+    padding-bottom: 50px;
+  }
+
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .footer-column {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .footer-column:nth-child(2) {
+    padding-right: 0px;
+  }
+  .footer-column p {
+    text-align: center;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+
+  .footer-column:last-child {
+    padding-right: 0px;
+  }
+}
