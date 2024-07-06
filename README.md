@@ -1,3 +1,3 @@
 ## Одна из первых попыток делать адаптив.
-### Простая верстка ссылка на страницу[https://safonov-ivan.github.io/Marketing/]
+### Простая верстка ссылка на страницу [page](https://safonov-ivan.github.io/Marketing/).
 
